@@ -1,0 +1,5 @@
+usuario Ana {
+  nombre = "Ana López";
+  puntos = 100;
+  premium = falso;
+}

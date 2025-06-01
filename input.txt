@@ -1,0 +1,5 @@
+usuario Juan {
+edad = 25;
+activo = verdadero;
+descripcion = "Usuario normal";
+}

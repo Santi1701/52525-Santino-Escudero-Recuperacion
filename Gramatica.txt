@@ -1,0 +1,16 @@
+Tarea Construcción de un Analizador con ANTLR4 y JavaScript
+Tema: 25914_4
+
+Gramática proporcionada para la realización del analizador:
+<programa> ::= <usuario>
+<usuario> ::= "usuario" <identificador> "{" { <atributo> } "}";
+<atributo> ::= <valor>;
+<valor> ::= <numero> <cadena> <booleano>;
+<numero> ::= <digito> { <digito> };
+<cadena> ::= <caracter> { <caracter> };
+<booleano> ::= "verdadero" | "falso";
+<identificador> ::= <letra> { <letra> | <digito> };
+<caracter> ::= <letra> | <digito> | <simbolo>;
+<letra> ::= "a" | "b" | "c" | ... | "z" | "A" | "B" | ... | "Z";
+<digito> ::= "0" | "1" | "2" | ... | "9";
+<simbolo> ::= "." | "," | ";" | ":" | "!" | "?" | "-" | "_" | "+" | "*" | "/" | "\\" | "|" | "&" | "%" | "$" | "#" | "@" | "^" | "(" | ")" | "[" | "]" | "{" | "}";

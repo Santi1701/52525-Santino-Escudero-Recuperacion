@@ -1,0 +1,4 @@
+usuario Pedro {
+  edad = 30
+  descripcion = Usuario sin comillas;
+}
